@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Nav from './components/Navegation/Nav'
+
 
 function App() {
   return (
-    <div  >
-      <p>
-       <center>  Nano suit</center> 
-      </p>
+    <div className='container'>
+
+      <Nav />
     </div>
   );
 }
