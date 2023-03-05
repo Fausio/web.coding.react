@@ -25,6 +25,7 @@ function Nav() {
                         <li>
                             <Link to="user/create">Create user</Link>
                         </li>
+                         
                     </ul>
                 </nav>
 
